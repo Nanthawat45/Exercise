@@ -13,15 +13,19 @@ public class Ex51 {
         float num4 = input.nextInt();
         System.out.println("ใส่ตัวเลขที่ 5 : ");
         float num5 = input.nextInt();
-        float max = num1 ;
+        float max = num1;
         if (max < num2) {
-            max = num2 ;
-        }  if (max < num3){
-            max = num3 ;
-        }  if (max < num4){
-            max = num4 ;
-        }  if (max < num5){
-           max = num5; }
-            System.out.println("The maximum value is" + max);
+            max = num2;
+        }
+        if (max < num3) {
+            max = num3;
+        }
+        if (max < num4) {
+            max = num4;
+        }
+        if (max < num5) {
+            max = num5;
+        }
+        System.out.println("The maximum value is" + max);
     }
 }
